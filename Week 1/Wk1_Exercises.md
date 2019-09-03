@@ -1,14 +1,14 @@
 # Exercises, week 1
 
 Reference code for these exercises is posted on GitHub at:
-https://github.com/ktbyers/pynet/tree/master/learning\_python/lesson1
+https://github.com/ktbyers/pynet/tree/master/learning_python/lesson1
 
 1.	Create a Python script that has three variables: `ip_addr1`, `ip_addr2`, `ip_addr3` (representing three corresponding IP addresses). Pring these three variables to standard output using a single print statement.
 	
 
 	Make your print statement compatible with both Python2 and Python3.
 
-	If you are using either Linux or MacOS make your program executable by adding a shebang line and by changing the files permissions (i.e. chmod 755 exercise1.py). 
+	If you are using either Linux or MacOS make your program executable by adding a shebang line and by changing the files permissions (i.e. `chmod 755 exercise1.py`). 
 
 2.	Prompt a user to enter in an IP address from standard input. Read the IP address in and break it up into its octets. Print out the octets in decimal, binary, and hex.
 
@@ -32,14 +32,14 @@ https://github.com/ktbyers/pynet/tree/master/learning\_python/lesson1
 
 	Make all three variables be strings that refer to IPv6 addresses.
 
-	Use the from future technique so that any string literals in Python2 are unicode.
+	Use the *from future* technique so that any string literals in Python2 are unicode.
 
-	compare if variable1 equals variable2
+	compare if variable1 equals variable2<br />
 	compare if variable1 is not equal to variable3
 
 4.	Create a show\_version variable that contains the following
 
-	`show\_version = "*0        CISCO881-SEC-K9       FTX0000038X    "`
+	`show_version = "*0        CISCO881-SEC-K9       FTX0000038X    "`
 
 	Remove all leading and trailing whitespace from the string.
 
@@ -53,17 +53,19 @@ https://github.com/ktbyers/pynet/tree/master/learning\_python/lesson1
 
 5.	You have the following variables from the arp table of a router:
 
-	mac1 = "Internet  10.220.88.29           94   5254.abbe.5b7b  ARPA   FastEthernet4"
-	mac2 = "Internet  10.220.88.30            3   5254.ab71.e119  ARPA   FastEthernet4"
-	mac3 = "Internet  10.220.88.32          231   5254.abc7.26aa  ARPA   FastEthernet4"
+	mac1 = "Internet  10.220.88.29           94   5254.abbe.5b7b  ARPA   FastEthernet4"<br />
+	mac2 = "Internet  10.220.88.30            3   5254.ab71.e119  ARPA   FastEthernet4"<br />
+	mac3 = "Internet  10.220.88.32          231   5254.abc7.26aa  ARPA   FastEthernet4"<br />
 
 	Process these ARP entries and print out a table of "IP ADDR" to "MAC ADDRESS" mappings. The output should look like the following:
 
+	```
 	             IP ADDR          MAC ADDRESS
 	-------------------- --------------------
 	        10.220.88.29       5254.abbe.5b7b
 	        10.220.88.30       5254.ab71.e119
 	        10.220.88.32       5254.abc7.26aa
+	```
 
 	Two columns, 20 characters wide, data right aligned, a header column.
 
