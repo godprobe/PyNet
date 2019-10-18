@@ -17,7 +17,7 @@ https://github.com/ktbyers/pynet/tree/master/learning_python/lesson2
 
 	Using the `.pop()` method to remove the first IP address in the list and the last IP address in the list.
 
-	Update the new first IP address in the list to be `'2.2.2.2'`. Print out the new first IP address in the list
+	Update the new first IP address in the list to be '`2.2.2.2`'. Print out the new first IP address in the list
 
 3.	Read in the "show\_arp.txt" file using the `readlines()` method. Use a *list slice* to remove the header line.
 
@@ -32,7 +32,7 @@ https://github.com/ktbyers/pynet/tree/master/learning_python/lesson2
 
 	Create a new list slice that is only the first three ARP entries.
 
-	Use the `.join()` method to join these first three ARP entries back together as a single string using the newline character (`'\n'`) as the separator.
+	Use the `.join()` method to join these first three ARP entries back together as a single string using the newline character ('`\n`') as the separator.
 
 	Write this string containing the three ARP entries out to a file named "arp_entries.txt".
 
@@ -44,9 +44,9 @@ https://github.com/ktbyers/pynet/tree/master/learning_python/lesson2
 
 	Print that tuple to the screen.
 
-	Use `pycodestyle` on this script. Get the warnings/errors to zero. You might need to `'pip install pycodestyle'` on your computer (you should be able to type this from the shell prompt). Alternatively, you can type `'python -m pip install pycodestyle'`.
+	Use `pycodestyle` on this script. Get the warnings/errors to zero. You might need to '`pip install pycodestyle`' on your computer (you should be able to type this from the shell prompt). Alternatively, you can type '`python -m pip install pycodestyle`'.
 
-5.	Read the 'show\_ip\_bgp\_summ.txt' file into your program. From this BGP output obtain the first and last lines of the output.
+5.	Read the "show\_ip\_bgp\_summ.txt" file into your program. From this BGP output obtain the first and last lines of the output.
 
 	From the first line use the string `.split()` method to obtain the local AS number.
 
