@@ -19,7 +19,7 @@ https://github.com/ktbyers/pynet/tree/master/learning_python/lesson2
 
 	Update the new first IP address in the list to be `'2.2.2.2'`. Print out the new first IP address in the list
 
-3.	Read in the `"show_arp.txt"` file using the `readlines()` method. Use a `list` `slice` to remove the header line.
+3.	Read in the "show\_arp.txt" file using the `readlines()` method. Use a *list slice* to remove the header line.
 
 	Use `pretty print` to print out the resulting list to the screen, syntax is:
 
@@ -34,9 +34,9 @@ https://github.com/ktbyers/pynet/tree/master/learning_python/lesson2
 
 	Use the `.join()` method to join these first three ARP entries back together as a single string using the newline character (`'\n'`) as the separator.
 
-	Write this string containing the three ARP entries out to a file named `"arp_entries.txt"`.
+	Write this string containing the three ARP entries out to a file named "arp_entries.txt".
 
-4.	Read in the `"show_ip_int_brief.txt"` file into your program using the `.readlines()` method.
+4.	Read in the "show\_ip\_int\_brief.txt" file into your program using the `.readlines()` method.
 
 	Obtain the list entry associated with the FastEthernet4 interface. You can just hard-code the index at this point since we haven't covered for-loops or regular expressions. Use the string `.split()` method to obtain both the IP address and the corresponding interface associated with the IP.
 
@@ -46,7 +46,7 @@ https://github.com/ktbyers/pynet/tree/master/learning_python/lesson2
 
 	Use `pycodestyle` on this script. Get the warnings/errors to zero. You might need to `'pip install pycodestyle'` on your computer (you should be able to type this from the shell prompt). Alternatively, you can type `'python -m pip install pycodestyle'`.
 
-5.	Read the `'show_ip_bgp_summ.txt'` file into your program. From this BGP output obtain the first and last lines of the output.
+5.	Read the 'show\_ip\_bgp\_summ.txt' file into your program. From this BGP output obtain the first and last lines of the output.
 
 	From the first line use the string `.split()` method to obtain the local AS number.
 
