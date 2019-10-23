@@ -3,7 +3,7 @@
 Reference code for these exercises is posted on GitHub at:
 https://github.com/ktbyers/pynet/tree/master/learning_python/lesson1
 
-1.	Create a Python script that has three variables: `ip_addr1`, `ip_addr2`, `ip_addr3` (representing three corresponding IP addresses). Pring these three variables to standard output using a single print statement.
+1.	Create a Python script that has three variables: `ip_addr1`, `ip_addr2`, `ip_addr3` (representing three corresponding IP addresses). Print these three variables to standard output using a single print statement.
 	
 
 	Make your print statement compatible with both Python2 and Python3.

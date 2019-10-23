@@ -7,7 +7,7 @@
 *	 9m - https://vimeo.com/242411259 - The Python Interpreter Shell
 *	 4m - https://vimeo.com/242460561 - IPython
 *	 6m - https://vimeo.com/243028886 - Printing to stdout and Reading from stdin
-*	10m - https://vimeo.com/243480156 - Dir, Help, and Variables?
+*	10m - https://vimeo.com/243480156 - Dir, Help, and Variables
 *	 6m - https://vimeo.com/243481392 - Python Strings (Part 1)
 *	 8m - https://vimeo.com/243482081 - Python Strings (Part 2)
 *	10m - https://vimeo.com/243482871 - Python Strings (Part 3)
