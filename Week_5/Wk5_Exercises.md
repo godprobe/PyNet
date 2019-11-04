@@ -3,7 +3,8 @@
 Reference code for these exercises is posted on GitHub at:
 https://github.com/ktbyers/pynet/tree/master/learning_python/lesson5
 
-1a.	Create an `ssh_conn` function. This function should have three parameters: `ip_addr`, `username`, and `password`. The function should print out each of these three variables and clearly indicate which variable it is printing out.
+1.	
+	a. Create an `ssh_conn` function. This function should have three parameters: `ip_addr`, `username`, and `password`. The function should print out each of these three variables and clearly indicate which variable it is printing out.
 
 	Call this `ssh_conn` function using entirely positional arguments.
 
@@ -12,7 +13,7 @@ https://github.com/ktbyers/pynet/tree/master/learning_python/lesson5
 	Call this `ssh_conn` function using a mix of positional and named arguments.
 
 
-1b.	Expand on the `ssh_conn` function from exercise1 except add a fourth parameter '`device_type`' with a default value of '`cisco_ios`'. Print all four of the function variables out as part of the function's execution.
+	b. Expand on the `ssh_conn` function from exercise1 except add a fourth parameter '`device_type`' with a default value of '`cisco_ios`'. Print all four of the function variables out as part of the function's execution.
 
 	Call the '`ssh_conn2`' function both with and without specifying the `device_type`.
 
