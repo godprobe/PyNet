@@ -34,7 +34,9 @@ https://github.com/ktbyers/pynet/tree/master/learning_python/lesson5
 	```
 
 	Call your function using no arguments.
+
 	Call your function using a positional argument.
+
 	Call your function using a named argument.
 
 	For each function call, print the returned IP address to the screen.
@@ -68,8 +70,8 @@ https://github.com/ktbyers/pynet/tree/master/learning_python/lesson5
 	- Listing your code.
 	- Using 'next' and 'step' to walk through your code. Make sure you understand the difference between next and step.
 	- Experiment with 'up' and 'down' to move up and down the code stack.
-	- Use p <variable> to inspect a variable.
+	- Use p \<variable\> to inspect a variable.
 	- Set a breakpoint and run your code to the breakpoint.
-	- Use '`!command`' to change a variable (for example `!new_mac = [])
+	- Use '`!command`' to change a variable (for example `!new_mac = []`)
 
 
