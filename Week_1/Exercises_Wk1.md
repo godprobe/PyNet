@@ -38,7 +38,7 @@ https://github.com/ktbyers/pynet/tree/master/learning_python/lesson1
 
 4.	Create a show\_version variable that contains the following
 
-	`show_version = "*0        CISCO881-SEC-K9       FTX0000038X    "`
+	    show_version = "*0        CISCO881-SEC-K9       FTX0000038X    "
 
 	Remove all leading and trailing whitespace from the string.
 
@@ -52,9 +52,9 @@ https://github.com/ktbyers/pynet/tree/master/learning_python/lesson1
 
 5.	You have the following variables from the arp table of a router:
 
-	mac1 = "Internet  10.220.88.29           94   5254.abbe.5b7b  ARPA   FastEthernet4"<br />
-	mac2 = "Internet  10.220.88.30            3   5254.ab71.e119  ARPA   FastEthernet4"<br />
-	mac3 = "Internet  10.220.88.32          231   5254.abc7.26aa  ARPA   FastEthernet4"<br />
+	    mac1 = "Internet  10.220.88.29           94   5254.abbe.5b7b  ARPA   FastEthernet4"<br />
+	    mac2 = "Internet  10.220.88.30            3   5254.ab71.e119  ARPA   FastEthernet4"<br />
+	    mac3 = "Internet  10.220.88.32          231   5254.abc7.26aa  ARPA   FastEthernet4"<br />
 
 	Process these ARP entries and print out a table of "IP ADDR" to "MAC ADDRESS" mappings. The output should look like the following:
 
