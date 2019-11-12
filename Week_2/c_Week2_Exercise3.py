@@ -12,8 +12,7 @@ with open("show_arp.txt") as arpFile:
     threeArps = arps[0:3]
     # Use the `.join()` method to join these first three ARP entries back together as a single string
     # using the newline character ('`\n`') as the separator.
-    # TODO: check if I really need '\n' instead of '' for this join; newlines already in the list items
-    arpString = ''.join(threeArps)
+    arpString = '\n'.join(threeArps)
     # Write this string containing the three ARP entries out to a file named "arp_entries.txt".
     with open("arp_entries.txt",'w') as writeableFile:
         writeableFile.write(arpString)
