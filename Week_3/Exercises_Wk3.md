@@ -3,7 +3,7 @@
 Reference code for these exercises is posted on GitHub at:
 https://github.com/ktbyers/pynet/tree/master/learning_python/lesson3
 
-1.	Read the "show\_vlan.txt" file into your program. Loop through teh lines in this file and extract all of the VLAN\_ID, VLAN\_NAME combinations. From these VLAN\_ID and VLAN\_NAME construct a new list where each element in the list is a tuple consisting of `(VLAN_ID, VLAN_NAME)`. Print this data structure to the screen. Your output should look as follows:
+1.	Read the "show\_vlan.txt" file into your program. Loop through the lines in this file and extract all of the VLAN\_ID, VLAN\_NAME combinations. From these VLAN\_ID and VLAN\_NAME construct a new list where each element in the list is a tuple consisting of `(VLAN_ID, VLAN_NAME)`. Print this data structure to the screen. Your output should look as follows:
 
 	```
 	[('1', 'default'),
