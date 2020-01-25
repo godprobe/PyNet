@@ -58,22 +58,10 @@ IPs_Chi = set(IPs_Chicago)
 
 # Using a set operation, find...
 # - Duplicates between Houston/Atlanta
-IPs_HouAtl = []
-for each in IPs_Hou:
-    if each in IPs_Atl:
-        IPs_HouAtl.append(each)
-print("Houston/Atlanta IPs: " + str(IPs_HouAtl))
+print("Houston/Atlanta IPs: " + str(IPs_Hou & IPs_Atl))
 
 # - Duplicates between all three sites
-IPs_HouAtlChi = []
-for each in IPs_Hou:
-    if each in IPs_Atl and each in IPs_Chi:
-        IPs_HouAtlChi.append(each)
-print("Common to all: " + str(IPs_HouAtlChi))
+print("Common to all: " + str(IPs_Hou & IPs_Atl & IPs_Chi))
 
 # - Unique IPs in Chicago
-IPs_OnlyChi = []
-for each in IPs_Chi:
-    if not (each in IPs_Atl and each in IPs_Chi):
-        IPs_OnlyChi.append(each)
-print("Unique in Chicago: " + str(IPs_OnlyChi))
+print("Unique in Chicago: " + str(IPs_Chi - IPs_Hou - IPs_Atl))
