@@ -44,7 +44,12 @@ IPs_Chicago = [
     '123.102.1.1',
     '123.231.231.231',
     '123.312.312.312',
-    '123.102.1.2']
+    '123.102.1.2',
+    '9.9.9.9']
+
+print("Houston IPs: " + str(IPs_Houston))
+print("Atlanta IPs: " + str(IPs_Atlanta))
+print("Chicago IPs: " + str(IPs_Chicago))
 
 # Convert each of the lists to a set
 IPs_Hou = set(IPs_Houston)
@@ -57,7 +62,18 @@ IPs_HouAtl = []
 for each in IPs_Hou:
     if each in IPs_Atl:
         IPs_HouAtl.append(each)
-print(IPs_HouAtl)
+print("Houston/Atlanta IPs: " + str(IPs_HouAtl))
 
 # - Duplicates between all three sites
+IPs_HouAtlChi = []
+for each in IPs_Hou:
+    if each in IPs_Atl and each in IPs_Chi:
+        IPs_HouAtlChi.append(each)
+print("Common to all: " + str(IPs_HouAtlChi))
+
 # - Unique IPs in Chicago
+IPs_OnlyChi = []
+for each in IPs_Chi:
+    if not (each in IPs_Atl and each in IPs_Chi):
+        IPs_OnlyChi.append(each)
+print("Unique in Chicago: " + str(IPs_OnlyChi))
